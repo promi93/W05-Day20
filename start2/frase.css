@@ -1,6 +1,3 @@
-
-
-
 /*
 1 creazione del testo e formattazione di 1 parola da far ruotare
 2 inserimento delle altre 2 parole
@@ -11,3 +8,46 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+body,
+html {
+  margin: 20px auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testoAlternato {
+  width: 300px;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+i {
+  color: rgb(80, 80, 232);
+  font-weight: bold;
+}
+
+@keyframes primo {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+i:nth-child(1) {
+  animation: primo 4s ease-in-out alternate infinite;
+}
+
+i:nth-child(2) {
+  animation: primo 8s ease-in-out alternate infinite;
+}
+
+i:nth-child(3) {
+  animation: primo 12s ease-in-out alternate infinite;
+}

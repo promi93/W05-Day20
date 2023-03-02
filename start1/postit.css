@@ -10,8 +10,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: 20px auto;
-    border: 2px solid rgb(216, 159, 36);
-    background-color: rgb(15, 28, 58);
+    border: 2px double rgb(216, 159, 36);
+    background-color: rgb(118, 118, 118);
     padding: 0.4em;
 }
 
@@ -19,10 +19,7 @@ body {
     width: 248px;
     height: 203px;
     margin: 20px;
-    -webkit-box-shadow: inset -2px -2px 66px 4px #00000058;
-    -moz-box-shadow: inset -2px -2px 66px 4px #00000063;
-    -o-box-shadow: inset -2px -2px 66px 4px #0000004c;
-    box-shadow: inset -2px -2px 66px 4px #00000057;
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.32);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,49 +36,49 @@ h2 p {
 }
 
 .uno {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: rotate(10deg);
     transition: transform 3s;
 }
 
 .due {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: rotate(-15deg);
     transition: transform 3s;
 }
 
 .tre {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: rotate(-8deg);
     transition: transform 3s;
 }
 
 .quattro {
-    background-color: rgba(219, 157, 219, 0.674);
+    background-color: rgb(155, 112, 155);
     transform: rotate(5deg);
     transition: transform 3s;
 }
 
 .cinque {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: rotate(-4deg);
     transition: transform 3s;
 }
 
 .sei {
-    background-color: rgba(219, 157, 219, 0.674);
+    background-color: rgb(155, 112, 155);
     transform: rotate(4deg);
     transition: transform 3s;
 }
 
 .sette {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: rotate(16deg);
     transition: transform 3s;
 }
 
 .otto {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: rotate(10deg);
     transition: transform 3s;
 }
@@ -89,50 +86,62 @@ h2 p {
 
 /* hover */
 
+.task:hover {
+    width: 248px;
+    height: 203px;
+    margin: 20px;
+    box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.32);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .uno:hover {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: scale(1.2) rotate(-15deg) translate(-10px);
     cursor: pointer;
 }
 
 .due:hover {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: scale(1.2) rotate(15deg) translate(-3px);
     cursor: pointer;
 }
 
 .tre:hover {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: scale(1.2) rotate(-5deg) translate(-4px);
     cursor: pointer;
 }
 
 .quattro:hover {
-    background-color: rgba(219, 157, 219, 0.674);
+    background-color: rgb(155, 112, 155);
     transform: scale(1.2) rotate(-15deg) translate(-14px);
     cursor: pointer;
 }
 
 .cinque:hover {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: scale(1.2) rotate(20deg) translate(10px);
     cursor: pointer;
 }
 
 .sei:hover {
-    background-color: rgba(219, 157, 219, 0.674);
+    background-color: rgb(155, 112, 155);
     transform: scale(1.2) rotate(-8deg) translate(-10px);
     cursor: pointer;
 }
 
 .sette:hover {
-    background-color: rgb(245, 245, 119);
+    background-color: rgb(192, 192, 110);
     transform: scale(1.2) rotate(-5deg) translate(-4px);
     cursor: pointer;
 }
 
 .otto:hover {
-    background-color: rgb(140, 241, 140);
+    background-color: rgb(128, 198, 128);
     transform: scale(1.2) rotate(-9deg) translate(-14px);
     cursor: pointer;
 }
+
