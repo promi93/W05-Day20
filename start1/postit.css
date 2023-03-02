@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(200, 196, 196);
+    font-family: 'Indie Flower';
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    border: 2px solid rgb(216, 159, 36);
+    background-color: rgb(54, 54, 54);
+    padding: 0.4em;
+}
+
+.task {
+    width: 248px;
+    height: 203px;
+    margin: 20px;
+    -webkit-box-shadow: inset -2px -2px 66px 4px #00000058;
+    -moz-box-shadow: inset -2px -2px 66px 4px #00000063;
+    -o-box-shadow: inset -2px -2px 66px 4px #0000004c;
+    box-shadow: inset -2px -2px 66px 4px #00000057;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+h2 p {
+    line-height: 2em;
+}
+
+.uno {
+    background-color: rgb(245, 245, 119);
+    transform: rotate(10deg);
+    transition: transform 3s;
+}
+
+.due {
+    background-color: rgb(140, 241, 140);
+    transform: rotate(-15deg);
+    transition: transform 3s;
+}
+
+.tre {
+    background-color: rgb(140, 241, 140);
+    transform: rotate(-8deg);
+    transition: transform 3s;
+}
+
+.quattro {
+    background-color: rgba(219, 157, 219, 0.674);
+    transform: rotate(5deg);
+    transition: transform 3s;
+}
+
+.cinque {
+    background-color: rgb(245, 245, 119);
+    transform: rotate(-4deg);
+    transition: transform 3s;
+}
+
+.sei {
+    background-color: rgba(219, 157, 219, 0.674);
+    transform: rotate(4deg);
+    transition: transform 3s;
+}
+
+.sette {
+    background-color: rgb(245, 245, 119);
+    transform: rotate(16deg);
+    transition: transform 3s;
+}
+
+.otto {
+    background-color: rgb(140, 241, 140);
+    transform: rotate(10deg);
+    transition: transform 3s;
+}
+
+
+/* hover */
+
+.uno:hover {
+    background-color: rgb(245, 245, 119);
+    transform: scale(1.2) rotate(-15deg) translate(-10px);
+    cursor: pointer;
+}
+
+.due:hover {
+    background-color: rgb(140, 241, 140);
+    transform: scale(1.2) rotate(15deg) translate(-3px);
+    cursor: pointer;
+}
+
+.tre:hover {
+    background-color: rgb(140, 241, 140);
+    transform: scale(1.2) rotate(-5deg) translate(-4px);
+    cursor: pointer;
+}
+
+.quattro:hover {
+    background-color: rgba(219, 157, 219, 0.674);
+    transform: scale(1.2) rotate(-15deg) translate(-14px);
+    cursor: pointer;
+}
+
+.cinque:hover {
+    background-color: rgb(245, 245, 119);
+    transform: scale(1.2) rotate(20deg) translate(10px);
+    cursor: pointer;
+}
+
+.sei:hover {
+    background-color: rgba(219, 157, 219, 0.674);
+    transform: scale(1.2) rotate(-8deg) translate(-10px);
+    cursor: pointer;
+}
+
+.sette:hover {
+    background-color: rgb(245, 245, 119);
+    transform: scale(1.2) rotate(-5deg) translate(-4px);
+    cursor: pointer;
+}
+
+.otto:hover {
+    background-color: rgb(140, 241, 140);
+    transform: scale(1.2) rotate(-9deg) translate(-14px);
+    cursor: pointer;
+}
